@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(7, 14, 24);
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+
+.header .nama a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    transition: .2s ease-in;
+    border-radius: 10px;
+}
+
+.header .menu-navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 15px;
+}
+
+.header .menu-navbar ul li {
+    list-style: none;
+    font-size: 18px;
+}
+
+.header .menu-navbar ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+
